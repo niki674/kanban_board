@@ -48,6 +48,6 @@ delete_button = tkinter.Button(
     text='Del all tasks',
     command= lambda: (to_do_list.delete(0, tkinter.END), in_progress_list.delete(0, tkinter.END), completed_list.delete(0, tkinter.END))
     )
-delete_button.grid(row=1, column=3, pady=5)
+delete_button.grid(row=2, column=2, pady=5)
 
 window.mainloop()
