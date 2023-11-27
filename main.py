@@ -11,7 +11,6 @@ def create_task():
 
 def move_task(souce_list, target_list):
     task = souce_list.get(souce_list.curselection())
-    souce_list.curselection()
     if  task:
         target_list.insert(tkinter.END, task)
         souce_list.delete(souce_list.curselection())
